@@ -1,53 +1,80 @@
+// Skills.jsx
 import React, { useState } from "react";
-import { skillsData } from "/src/components/data/data.js";
+import { skillsData } from "../data/skillsData";
+import "../../styles/skills.css";
+
+const tagStyles = {
+  experiencia: "tag-exp",
+  formación: "tag-cert",
+  prácticas: "tag-prac",
+};
 
 const Skills = () => {
   const [active, setActive] = useState(0);
+  const current = skillsData[active];
 
   return (
     <section className="skills section" id="skills">
-      <h2 className="section-title" data-heading="My Abilities">My Experience</h2>
-
-      <div className="skills-container container grid">
-        {/* Tabs */}
-        <div className="skills-tabs">
-          {skillsData.map((s, i) => (
-            <div
-              key={s.id}
-              className={`skills-header${active === i ? " skills-active" : ""}`}
-              onClick={() => setActive(i)}
-            >
-              <i className={`${s.icon} skills-icon`} />
-              <div>
-                <h1 className="skills-title">{s.title}</h1>
-                <span className="skills-subtitle">{s.subtitle}</span>
-              </div>
-              <i className="uil uil-angle-down skills-arrow" />
-            </div>
-          ))}
-        </div>
-
-        {/* Content */}
-        <div className="skills-content">
-          {skillsData.map((s, i) => (
-            <div
-              key={s.id}
-              className={`skills-group${active === i ? " skills-active" : ""}`}
-              data-content
-            >
-              <div className="skills-list grid">
-                {s.skills.map((skill) => (
-                  <div className="skills-data" key={skill.name}>
-                    <div className="skills-titles">
-                      <h3 className="skills-name">{skill.name}</h3>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          ))}
-        </div>
+      <div className="skills-header-row">
+        <h2 className="section-title">Habilidades</h2>
+        <span className="section-name">Guillermo Castro Abarca</span>
       </div>
+
+      {/* Tabs tipo pill */}
+      <div className="skills-tabs">
+        {skillsData.map((s, i) => (
+          <button
+            key={s.id}
+            className={`skills-tab ${active === i ? `active ${s.color}` : ""}`}
+            onClick={() => setActive(i)}
+          >
+            {s.title}
+          </button>
+        ))}
+      </div>
+
+      {/* Pills de habilidades */}
+      <div className="skills-pills">
+        {current.skills.map((skill) => (
+          <div key={skill.name} className="skill-pill">
+            <span className={`pill-dot dot-${current.color}`} />
+            {skill.name}
+            {skill.tag && (
+              <span className={`pill-tag ${tagStyles[skill.tag]}`}>
+                {skill.tag}
+              </span>
+            )}
+          </div>
+        ))}
+      </div>
+
+      {/* Tarjeta de experiencia (solo DevOps) */}
+      {current.experience && (
+        <div className="exp-card">
+          <div className="exp-header">
+            <span className="exp-company">{current.experience.company}</span>
+            <span className="exp-date">{current.experience.date}</span>
+          </div>
+          <ul className="exp-bullets">
+            {current.experience.bullets.map((b) => (
+              <li key={b}>{b}</li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {/* Tarjeta de certificación (solo Ciberseguridad) */}
+      {current.cert && (
+        <div className="cert-card">
+          <div className="cert-icon">
+            <i className="uil uil-award" />
+          </div>
+          <div>
+            <p className="cert-title">{current.cert.title}</p>
+            <span className="cert-sub">{current.cert.sub}</span>
+          </div>
+        </div>
+      )}
     </section>
   );
 };

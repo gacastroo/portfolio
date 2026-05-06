@@ -17,11 +17,8 @@ const Footer = () => (
           <a href="https://github.com/gacastroo" target="_blank" rel="noreferrer" className="footer-social">
             <i className="uil uil-github" />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="footer-social">
+          <a href="https://www.linkedin.com/in/guillermo-castro-abarcaa/" target="_blank" rel="noreferrer" className="footer-social">
             <i className="uil uil-linkedin" />
-          </a>
-          <a href="https://twitter.com" target="_blank" rel="noreferrer" className="footer-social">
-            <i className="uil uil-twitter" />
           </a>
         </div>
       </div>

@@ -40,13 +40,13 @@ export const workData = [
   {
     id: 1,
     filter: "web",
-    img: "/LoreWeb.png", // puedes poner la URL de una captura si quieres
+    img: "/LoreWeb.png",
     title: "LoreWeaver",
     details: {
       subtitle: "Web",
       title: "LoreWeaver – Generador de historias interactivas",
       description:
-          "Aplicación web para gestionar personajes, eventos y universos en historias interactivas.",
+        "Aplicación web para gestionar personajes, eventos y universos en historias interactivas.",
       created: "2025",
       tech: "React, JavaScript, CSS",
       role: "Full Stack",
@@ -57,12 +57,28 @@ export const workData = [
     id: 2,
     filter: "web",
     img: "",
+    title: "Guia Github",
+    details: {
+      subtitle: "Web",
+      title: "Guia Github – Tutorial de Git y GitHub",
+      description:
+        "Guía completa para aprender Git y GitHub desde cero.",
+      created: "2026",
+      tech: "HTML, CSS, JavaScript",
+      role: "Frontend",
+      link: "https://github.com/gacastroo/guiaGithub",
+    },
+  },
+  {
+    id: 3,
+    filter: "web",
+    img: "",
     title: "Portfolio Personal",
     details: {
       subtitle: "Web",
       title: "Portfolio – Presentación de proyectos",
       description:
-          "Portfolio personal desarrollado con React para mostrar habilidades y proyectos.",
+        "Portfolio personal desarrollado con React para mostrar habilidades y proyectos.",
       created: "2026",
       tech: "React, CSS",
       role: "Frontend",
@@ -70,7 +86,7 @@ export const workData = [
     },
   },
   {
-    id: 3,
+    id: 4,
     filter: "backend",
     img: "",
     title: "Escape_Room API",
@@ -78,7 +94,7 @@ export const workData = [
       subtitle: "API",
       title: "Escape_Room – Gestión de salas temáticas",
       description:
-          "Backend para gestionar salas y partidas de Escape Room en tiempo real.",
+        "Backend para gestionar salas y partidas de Escape Room en tiempo real.",
       created: "2026",
       tech: "Java, Spring Boot, PostgreSQL",
       role: "Backend",
@@ -86,7 +102,7 @@ export const workData = [
     },
   },
   {
-    id: 4,
+    id: 5,
     filter: "web",
     img: "",
     title: "PaginaPort",
@@ -94,7 +110,7 @@ export const workData = [
       subtitle: "Web",
       title: "PaginaPort – Proyecto HTML/CSS/JS",
       description:
-          "Sitio web simple creado como práctica de desarrollo frontend.",
+        "Sitio web simple creado como práctica de desarrollo frontend.",
       created: "2025",
       tech: "HTML, CSS, JavaScript",
       role: "Frontend",
@@ -102,7 +118,7 @@ export const workData = [
     },
   },
   {
-    id: 5,
+    id: 6,
     filter: "backend",
     img: "",
     title: "LibreriaProyect",
@@ -110,7 +126,7 @@ export const workData = [
       subtitle: "Backend",
       title: "LibreriaProyect – Gestión de librerías",
       description:
-          "Proyecto backend en Java mostrando lógica de servidor y manejo de datos.",
+        "Proyecto backend en Java mostrando lógica de servidor y manejo de datos.",
       created: "2024",
       tech: "Java",
       role: "Backend",
@@ -118,7 +134,7 @@ export const workData = [
     },
   },
   {
-    id: 6,
+    id: 7,
     filter: "automation",
     img: "",
     title: "Selenium UI Test Demo",
@@ -126,7 +142,7 @@ export const workData = [
       subtitle: "automation",
       title: "selenium-ui-test-herokuapp-demo",
       description:
-          "Pruebas automatizadas con Selenium sobre una demo en Heroku.",
+        "Pruebas automatizadas con Selenium sobre una demo en Heroku.",
       created: "2025",
       tech: "Java, Selenium",
       role: "QA / Test Automation",
