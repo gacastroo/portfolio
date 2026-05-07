@@ -1084,10 +1084,11 @@ button, input { border: none; outline: none; }
 
 .badge-1 { top: -10%;  right: -45%; animation: bf-a 4s   ease-in-out infinite; }
 .badge-2 { top: 70%; left: -60%;  animation: bf-b 5s   ease-in-out infinite; }
-.badge-3 {left:65%; bottom: 0; animation: bf-b 5s   ease-in-out infinite; }
+.badge-3 { left: 56%; bottom: 2%; animation: bf-c 6s   ease-in-out infinite; }
 
 @keyframes bf-a { 0%, 100% { transform: translateY(0);  } 50% { transform: translateY(-8px); } }
 @keyframes bf-b { 0%, 100% { transform: translateY(0);  } 50% { transform: translateY(8px);  } }
+@keyframes bf-c { 0%, 100% { transform: translateY(0);  } 50% { transform: translateY(-8px); } }
 
 /* ── Nombre destacado ── */
 .home-title-name { color: var(--accent); }
@@ -1158,7 +1159,7 @@ button, input { border: none; outline: none; }
 @media screen and (min-width: 769px) {
   .badge-1 { top: -6%; right: -24%; }
   .badge-2 { top: 68%; left: -38%; }
-  .badge-3 { left: 56%; bottom: 2%; }
+  .badge-3 { left: 80%; bottom: 2%; }
 }
 
 /* =============================================
