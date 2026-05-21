@@ -602,9 +602,12 @@ button, input { border: none; outline: none; }
   position: relative; overflow: hidden;
   background: hsl(222, 30%, 7%);
   border-right: 1px solid var(--border);
-  min-height: 260px; display: flex; align-items: center; justify-content: center;
+  min-height: 260px;
+  height: 100%;          /* ← añade esto */
+  display: flex; align-items: center; justify-content: center;
 }
-.fs-win-preview img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+.fs-win-preview img { width: 100%; height: 100%; object-fit: contain; display: block; }
 
 .fs-win-placeholder {
   display: flex; flex-direction: column; align-items: center; gap: .75rem;
@@ -679,7 +682,7 @@ button, input { border: none; outline: none; }
 @media screen and (max-width: 768px) {
   .fs-grid { grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: .75rem; padding: 1.25rem 1rem; }
   .fs-win-body { grid-template-columns: 1fr; }
-  .fs-win-preview { min-height: 180px; border-right: none; border-bottom: 1px solid var(--border); }
+  .fs-win-preview { min-height: 180px; height: 100%; border-right: none; border-bottom: 1px solid var(--border); }
   .fs-win-meta { padding: 1.25rem; }
   .fs-status-hint { display: none; }
 }

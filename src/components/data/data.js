@@ -1,3 +1,8 @@
+import loreWeb from "../../assets/img/LoreWeb.png";
+import git from "../../assets/img/git.png";
+import portfolioPersonal from "../../assets/img/portfolioPersonal.png";
+import paginaPort from "../../assets/img/paginaPort.png";
+
 export const skillsData = [
   {
     id: "frontend",
@@ -40,7 +45,7 @@ export const workData = [
   {
     id: 1,
     filter: "web",
-    img: "/LoreWeb.png",
+    img: loreWeb,
     title: "LoreWeaver",
     details: {
       subtitle: "Web",
@@ -56,13 +61,12 @@ export const workData = [
   {
     id: 2,
     filter: "web",
-    img: "/git.png",
+    img: git,
     title: "Guia Github",
     details: {
       subtitle: "Web",
       title: "Guia Github – Tutorial de Git y GitHub",
-      description:
-        "Guía completa para aprender Git y GitHub desde cero.",
+      description: "Guía completa para aprender Git y GitHub desde cero.",
       created: "2026",
       tech: "HTML, CSS, JavaScript",
       role: "Frontend",
@@ -72,7 +76,7 @@ export const workData = [
   {
     id: 3,
     filter: "web",
-    img: "/porfolioPersonal.png",
+    img: portfolioPersonal,
     title: "Portfolio Personal",
     details: {
       subtitle: "Web",
@@ -104,7 +108,7 @@ export const workData = [
   {
     id: 5,
     filter: "web",
-    img: "/paginaPort.png",
+    img: paginaPort,
     title: "PaginaPort",
     details: {
       subtitle: "Web",
@@ -157,13 +161,14 @@ export const servicesData = [
     title: "Full Stack\nDeveloper",
     modal: {
       title: "Full Stack Developer",
-      description: "Desarrollo aplicaciones web completas con experiencia en frontend y backend, creando soluciones eficientes y escalables.",
+      description:
+        "Desarrollo aplicaciones web completas con experiencia en frontend y backend, creando soluciones eficientes y escalables.",
       items: [
         "Desarrollo Frontend con React y Angular",
         "Backend con Java y Spring Boot",
         "Diseño e integración de APIs REST",
         "Gestión de bases de datos MySQL/PostgreSQL",
-        "Optimización de rendimiento y escalabilidad"
+        "Optimización de rendimiento y escalabilidad",
       ],
     },
   },
@@ -172,13 +177,14 @@ export const servicesData = [
     title: "UI/UX\nDevelopment",
     modal: {
       title: "UI/UX Development",
-      description: "Diseño interfaces intuitivas y experiencias de usuario fluidas para aplicaciones web modernas.",
+      description:
+        "Diseño interfaces intuitivas y experiencias de usuario fluidas para aplicaciones web modernas.",
       items: [
         "Diseño responsivo con HTML, CSS y JavaScript",
         "Prototipos interactivos y mockups",
         "Pruebas de usabilidad y A/B testing",
         "Guías de estilo y consistencia visual",
-        "Mejora continua de la experiencia de usuario"
+        "Mejora continua de la experiencia de usuario",
       ],
     },
   },
@@ -187,13 +193,14 @@ export const servicesData = [
     title: "Project\nManagement",
     modal: {
       title: "Project Management",
-      description: "Organizo y gestiono proyectos de software asegurando calidad, eficiencia y entrega puntual.",
+      description:
+        "Organizo y gestiono proyectos de software asegurando calidad, eficiencia y entrega puntual.",
       items: [
         "Planificación de tareas y sprints",
         "Control de versiones y Git/GitHub",
         "Documentación de proyectos",
         "Coordinación con equipos multidisciplinarios",
-        "Iteración y refinamiento de proyectos"
+        "Iteración y refinamiento de proyectos",
       ],
     },
   },
