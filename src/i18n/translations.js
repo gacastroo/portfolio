@@ -32,8 +32,8 @@ export const t = {
     sectionHeading: { en: "My Intro",       es: "Mi Intro" },
     title:          { en: "About Me",       es: "Sobre Mí" },
     heading: {
-      en: "Hi, I'm Guillermo Castro, based in Madrid",
-      es: "Hola, soy Guillermo Castro, con base en Madrid",
+      en: "Hi, I'm Guillermo Castro",
+      es: "Hola, soy Guillermo Castro",
     },
     description: {
       en: "I enjoy analysing systems and shaping secure, functional and well-structured solutions, whether through code or security event analysis. I like learning new technologies, solving problems with an analytical mindset and contributing in collaborative environments.",
