@@ -111,8 +111,26 @@ export const workData = [
       link: "https://github.com/gacastroo/Escape_Room",
     },
   },
-  {
+    {
     id: 5,
+    filter: "web",
+    img: Notala,
+    imgWidth: 800,
+    imgHeight: 542,
+    title: "Notala",
+    details: {
+      subtitle: "Web",
+      title: "Notala – Aplicación de notas",
+      description:
+        "Aplicación web para crear, organizar y gestionar notas de forma rápida y sencilla.",
+      created: "2026",
+      tech: "React, Vite, Tailwind CSS",
+      role: "Frontend",
+      link: "https://github.com/gacastroo/Notala",
+    },
+  },
+    {
+    id: 6,
     filter: "web",
     img: paginaPort,
     imgWidth: 800,
@@ -130,7 +148,7 @@ export const workData = [
     },
   },
   {
-    id: 6,
+    id: 7,
     filter: "backend",
     img: "",
     title: "LibreriaProyect",
@@ -146,7 +164,7 @@ export const workData = [
     },
   },
   {
-    id: 7,
+    id: 8,
     filter: "automation",
     img: "",
     title: "Selenium UI Test Demo",
