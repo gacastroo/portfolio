@@ -2,6 +2,7 @@ import loreWeb from "../../assets/img/LoreWeb.webp";
 import git from "../../assets/img/git.webp";
 import portfolioPersonal from "../../assets/img/portfolioPersonal.webp";
 import paginaPort from "../../assets/img/paginaPort.webp";
+import Notala from "../../assets/img/Notala.png";
 
 export const skillsData = [
   {

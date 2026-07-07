@@ -158,18 +158,24 @@ export const t = {
         role:        { en: "Backend", es: "Backend" },
       },
       5: {
+        title:       { en: "Notala",                                                es: "Notala" },
+        detailTitle: { en: "Notala – Notes App",                                    es: "Notala – Aplicación de notas" },
+        description: { en: "Web app to create, organise and manage notes quickly and easily.", es: "Aplicación web para crear, organizar y gestionar notas de forma rápida y sencilla." },
+        role:        { en: "Frontend", es: "Frontend" },
+      },
+      6: {
         title:       { en: "PaginaPort",                                            es: "PaginaPort" },
         detailTitle: { en: "PaginaPort – HTML/CSS/JS Project",                      es: "PaginaPort – Proyecto HTML/CSS/JS" },
         description: { en: "Simple website created as a frontend development practice.", es: "Sitio web simple creado como práctica de desarrollo frontend." },
         role:        { en: "Frontend", es: "Frontend" },
       },
-      6: {
+      7: {
         title:       { en: "LibreriaProyect",                                       es: "LibreriaProyect" },
         detailTitle: { en: "LibreriaProyect – Library Management",                  es: "LibreriaProyect – Gestión de librerías" },
         description: { en: "Java backend project showcasing server logic and data handling.", es: "Proyecto backend en Java mostrando lógica de servidor y manejo de datos." },
         role:        { en: "Backend", es: "Backend" },
       },
-      7: {
+      8: {
         title:       { en: "Selenium UI Test Demo",                                 es: "Selenium UI Test Demo" },
         detailTitle: { en: "selenium-ui-test-herokuapp-demo",                       es: "selenium-ui-test-herokuapp-demo" },
         description: { en: "Automated tests with Selenium over a Heroku demo app.", es: "Pruebas automatizadas con Selenium sobre una demo en Heroku." },
