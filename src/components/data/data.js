@@ -1,7 +1,7 @@
-import loreWeb from "../../assets/img/LoreWeb.png";
-import git from "../../assets/img/git.png";
-import portfolioPersonal from "../../assets/img/portfolioPersonal.png";
-import paginaPort from "../../assets/img/paginaPort.png";
+import loreWeb from "../../assets/img/LoreWeb.webp";
+import git from "../../assets/img/git.webp";
+import portfolioPersonal from "../../assets/img/portfolioPersonal.webp";
+import paginaPort from "../../assets/img/paginaPort.webp";
 
 export const skillsData = [
   {
@@ -46,6 +46,8 @@ export const workData = [
     id: 1,
     filter: "web",
     img: loreWeb,
+    imgWidth: 400,
+    imgHeight: 637,
     title: "LoreWeaver",
     details: {
       subtitle: "Web",
@@ -62,6 +64,8 @@ export const workData = [
     id: 2,
     filter: "web",
     img: git,
+    imgWidth: 800,
+    imgHeight: 667,
     title: "Guia Github",
     details: {
       subtitle: "Web",
@@ -77,6 +81,8 @@ export const workData = [
     id: 3,
     filter: "web",
     img: portfolioPersonal,
+    imgWidth: 800,
+    imgHeight: 590,
     title: "Portfolio Personal",
     details: {
       subtitle: "Web",
@@ -109,6 +115,8 @@ export const workData = [
     id: 5,
     filter: "web",
     img: paginaPort,
+    imgWidth: 800,
+    imgHeight: 542,
     title: "PaginaPort",
     details: {
       subtitle: "Web",

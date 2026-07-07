@@ -1,5 +1,4 @@
 import React from "react";
-import profileImg from "../../assets/img/profile.jpg";
 import { useLanguage } from "../../context/LanguageContext";
 import { t } from "../../i18n/translations";
 
@@ -30,14 +29,14 @@ const Home = () => {
 
         <div className="home-right">
           <div className="home-float-img">
-            <img src="/multitask.png" alt="Developer illustration" />
+            <img src="/multitask.webp" alt="Developer illustration" width="520" height="389" loading="eager" decoding="async" />
           </div>
 
           <div className="profile-wrapper">
             <div className="profile-image-glow" />
             <div className="profile-image-frame">
               <div className="profile-image" id="profileImage">
-                <img src={profileImg} alt="Guillermo Castro" />
+                <img src="/profile-home.webp" alt="Guillermo Castro" width="400" height="400" loading="eager" decoding="async" fetchPriority="high" />
               </div>
             </div>
 

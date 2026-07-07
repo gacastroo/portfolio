@@ -1,5 +1,5 @@
 import React from "react";
-import profileImg from "../../assets/img/profile.png";
+import profileImg from "../../assets/img/profile-about.webp";
 import { useLanguage } from "../../context/LanguageContext";
 import { t } from "../../i18n/translations";
 
@@ -12,7 +12,7 @@ const About = () => {
       <h2 className="section-title" data-heading={a.sectionHeading[lang]}>{a.title[lang]}</h2>
 
       <div className="about-container container grid">
-        <img src={profileImg} alt="About Guillermo" className="about-img" />
+        <img src={profileImg} alt="About Guillermo" className="about-img" width="500" height="500" loading="lazy" decoding="async" />
 
         <div className="about-data">
           <h3 className="about-heading">{a.heading[lang]}</h3>

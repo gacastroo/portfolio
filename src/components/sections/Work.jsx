@@ -101,7 +101,7 @@ const DetailWindow = ({ item, onClose, lang }) => {
       <div className="fs-win-body">
         <div className="fs-win-preview">
           {item.img
-            ? <img src={item.img} alt={item.title} />
+            ? <img src={item.img} alt={item.title} width={item.imgWidth} height={item.imgHeight} loading="lazy" decoding="async" />
             : (
               <div className="fs-win-placeholder">
                 <i className={cat.icon} style={{ color: cat.color }} />

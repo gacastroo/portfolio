@@ -2,11 +2,37 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <meta name="description" content="Portfolio de Guillermo Castro, desarrollador Full Stack especializado en React, Java, Spring Boot y ciberseguridad." />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="preload" as="image" href="/profile-home.webp" type="image/webp" fetchpriority="high" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Turret+Road:wght@500;700;800&display=swap"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Turret+Road:wght@500;700;800&display=swap" />
+    </noscript>
+    <script>
+      window.addEventListener('load', function () {
+        var loadIcons = function () {
+          var link = document.createElement('link');
+          link.rel = 'stylesheet';
+          link.href = 'https://unicons.iconscout.com/release/v4.0.8/css/line.css';
+          document.head.appendChild(link);
+        };
+        if ('requestIdleCallback' in window) {
+          requestIdleCallback(loadIcons);
+        } else {
+          setTimeout(loadIcons, 1);
+        }
+      });
+    </script>
     <title>Guillermo Castro – Portfolio</title>
   </head>
   <body>
